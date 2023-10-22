@@ -1,14 +1,25 @@
 /* Estilos para los botones */
+.button-container {
+    display: flex; /* Agrega esta propiedad para crear un contenedor flexible */
+    justify-content: center; /* Ajusta esta propiedad para centrar los botones horizontalmente */
+    flex-direction: column; /* Ajusta esta propiedad para crear un contenedor de columnas */
+    align-items: center; /* Ajusta esta propiedad para crear un contenedor de columnas */
+    height: 50vh;
+}
+
 .button {
     display: block;
-    padding: 10px 20px;
+    padding: 10px 100px;
     background-color: #333;
     color: #fff;
     text-decoration: none;
     border: none;
-    border-radius: 5px;
-    margin-right: 20px;
+    border-radius: 50px;
     margin-bottom: 10px;
+    width: 50%;
+    text-align: center;
+    
+
 }
 
 /* Estilos adicionales para cada botón */
